@@ -54,7 +54,9 @@ dev2 = Developer('koo', 'hoo', 70000, 'ruby')
 
 mgr1 = Maneger('huuu', 'fuu', 100000, [dev1])
 
+## dev2を追加
 mgr1.add_emp(dev2)
+## dev1を削除
 mgr1.remove_emp(dev1)
 
 mgr1.print_emps()
