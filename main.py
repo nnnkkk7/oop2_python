@@ -19,7 +19,7 @@ class Employee:
         self.pay = int(self.pay * self.raise_amount )
 
 
-##サブクラスを作成
+## クラス継承
 class Developer(Employee):
     raise_amount = 1.20
 
@@ -27,7 +27,7 @@ class Developer(Employee):
         super().__init__(first, last, pay)
         self.prog_lang = prog_lang
 
-
+## クラス継承
 class Maneger(Employee):
     def __init__(self, first, last, pay, employees=None):
         super().__init__(first, last, pay)
