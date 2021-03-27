@@ -8,8 +8,6 @@ class Employee:
         self.pay = pay
         self.email = first + '.' + last + '@company.com'
 
-        # Employee.num_of_emps += 1
-
     ##フルネームに整形   
     def fullname(self):
         return '{} {}'.format(self.first, self.last)    
